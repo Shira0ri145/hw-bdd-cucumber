@@ -7,6 +7,11 @@ gem 'rails', '4.2.11'
 gem 'sass-rails', '~> 5.0.3'
 gem 'uglifier', '>= 2.7.1'
 
+gem 'devise'
+gem 'omniauth'
+gem 'omniauth-google-oauth2'
+gem "omniauth-rails_csrf_protection", "~> 1.0"
+
 gem 'jquery-rails'
 
 group :development do
