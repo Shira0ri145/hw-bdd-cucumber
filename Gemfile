@@ -26,7 +26,8 @@ group :development, :test do
   gem 'cucumber-rails', require: false
   gem 'rspec-rails'
 
-  
+  gem 'dotenv-rails'
+
   gem 'pry'
   gem 'pry-byebug'
 
